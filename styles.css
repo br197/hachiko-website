@@ -1,0 +1,102 @@
+main {
+    background-color:#E0E0E0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  h1, #short-caption, #tribute-info, #tribute-link {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+  }
+  
+  #short-caption {
+    font-style: italic;
+  }
+  
+  #image {
+    width: inherit;
+    height: auto;
+    display: block;
+    padding: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    max-height: 100%;
+  }
+  
+  #image2 {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  #img-div, #img-div2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: black;
+    align-items: center;
+    border-radius: 5px;
+    border: 5px solid black;
+    height: 400px;
+    width: 300px;
+  }
+  
+  #border {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between
+  }
+  
+  #img-caption, #img-caption2{
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+  }
+  
+  #facts {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  figcaption {
+    padding-top: 5px;
+    margin: auto;
+  }
+  
+  li {
+    font-size: 1.4rem;
+  }
+  
+  #paragraph {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Verdana, sans-serif;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  #story {
+    font-weight: normal;
+    font-family: Verdana, sans-serif;
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+  
